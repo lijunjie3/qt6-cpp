@@ -16,7 +16,7 @@ Dialog::~Dialog() {}
 void Dialog::do_chkBoxUnder(bool checked)
 {
     // Underline 复选框
-    QFont font = txtEdit->font();
+    QFont font = txtEdit->font();    //拿到文字
     font.setUnderline(checked);
     txtEdit->setFont(font);
 }
